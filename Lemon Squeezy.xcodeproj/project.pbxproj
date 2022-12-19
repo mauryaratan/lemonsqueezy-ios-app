@@ -17,6 +17,9 @@
 		2128D39329502FC1005B16C2 /* MethodRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D39229502FC1005B16C2 /* MethodRow.swift */; };
 		2128D39629503002005B16C2 /* HTTPMethodBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D39529503002005B16C2 /* HTTPMethodBadge.swift */; };
 		2128D39829503067005B16C2 /* GetMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D39729503067005B16C2 /* GetMe.swift */; };
+		2128D39D29504AAF005B16C2 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D39C29504AAF005B16C2 /* Orders.swift */; };
+		2128D39F29504B13005B16C2 /* GetOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D39E29504B13005B16C2 /* GetOrders.swift */; };
+		2128D3A129504DC4005B16C2 /* GetOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D3A029504DC4005B16C2 /* GetOrder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		2128D39529503002005B16C2 /* HTTPMethodBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethodBadge.swift; sourceTree = "<group>"; };
 		2128D39729503067005B16C2 /* GetMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMe.swift; sourceTree = "<group>"; };
 		2128D39929504070005B16C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "/Users/ram/Developer/Lemon/Lemon Squeezy/README.md"; sourceTree = "<absolute>"; };
+		2128D39C29504AAF005B16C2 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		2128D39E29504B13005B16C2 /* GetOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOrders.swift; sourceTree = "<group>"; };
+		2128D3A029504DC4005B16C2 /* GetOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 		2128D37529501885005B16C2 /* Lemon Squeezy */ = {
 			isa = PBXGroup;
 			children = (
+				2128D39B29504AA4005B16C2 /* Orders */,
 				2128D39129502FB0005B16C2 /* Helper Views */,
 				2128D38E29502F56005B16C2 /* Users */,
 				2128D37629501885005B16C2 /* Lemon_SqueezyApp.swift */,
@@ -110,6 +117,16 @@
 				2128D39529503002005B16C2 /* HTTPMethodBadge.swift */,
 			);
 			path = "Helper Views";
+			sourceTree = "<group>";
+		};
+		2128D39B29504AA4005B16C2 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				2128D39C29504AAF005B16C2 /* Orders.swift */,
+				2128D39E29504B13005B16C2 /* GetOrders.swift */,
+				2128D3A029504DC4005B16C2 /* GetOrder.swift */,
+			);
+			path = Orders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,11 +225,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2128D39629503002005B16C2 /* HTTPMethodBadge.swift in Sources */,
+				2128D3A129504DC4005B16C2 /* GetOrder.swift in Sources */,
 				2128D39029502F60005B16C2 /* Users.swift in Sources */,
 				2128D39829503067005B16C2 /* GetMe.swift in Sources */,
+				2128D39F29504B13005B16C2 /* GetOrders.swift in Sources */,
 				2128D37929501885005B16C2 /* ContentView.swift in Sources */,
 				2128D38D2950298A005B16C2 /* Secrets.swift in Sources */,
 				2128D39329502FC1005B16C2 /* MethodRow.swift in Sources */,
+				2128D39D29504AAF005B16C2 /* Orders.swift in Sources */,
 				2128D37729501885005B16C2 /* Lemon_SqueezyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
