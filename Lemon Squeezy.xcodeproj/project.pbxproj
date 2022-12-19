@@ -11,6 +11,12 @@
 		2128D37929501885005B16C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D37829501885005B16C2 /* ContentView.swift */; };
 		2128D37B29501886005B16C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2128D37A29501886005B16C2 /* Assets.xcassets */; };
 		2128D37E29501886005B16C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2128D37D29501886005B16C2 /* Preview Assets.xcassets */; };
+		2128D387295018A8005B16C2 /* LemonSqueezy in Frameworks */ = {isa = PBXBuildFile; productRef = 2128D386295018A8005B16C2 /* LemonSqueezy */; };
+		2128D38D2950298A005B16C2 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D38C2950298A005B16C2 /* Secrets.swift */; };
+		2128D39029502F60005B16C2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D38F29502F60005B16C2 /* Users.swift */; };
+		2128D39329502FC1005B16C2 /* MethodRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D39229502FC1005B16C2 /* MethodRow.swift */; };
+		2128D39629503002005B16C2 /* HTTPMethodBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D39529503002005B16C2 /* HTTPMethodBadge.swift */; };
+		2128D39829503067005B16C2 /* GetMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D39729503067005B16C2 /* GetMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		2128D37829501885005B16C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2128D37A29501886005B16C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2128D37D29501886005B16C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2128D3842950189D005B16C2 /* LemonSqueezy */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LemonSqueezy; path = ../LemonSqueezy; sourceTree = "<group>"; };
+		2128D38C2950298A005B16C2 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		2128D38F29502F60005B16C2 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		2128D39229502FC1005B16C2 /* MethodRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodRow.swift; sourceTree = "<group>"; };
+		2128D39529503002005B16C2 /* HTTPMethodBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethodBadge.swift; sourceTree = "<group>"; };
+		2128D39729503067005B16C2 /* GetMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMe.swift; sourceTree = "<group>"; };
+		2128D39929504070005B16C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "/Users/ram/Developer/Lemon/Lemon Squeezy/README.md"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2128D387295018A8005B16C2 /* LemonSqueezy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +49,11 @@
 		2128D36A29501885005B16C2 = {
 			isa = PBXGroup;
 			children = (
+				2128D39929504070005B16C2 /* README.md */,
+				2128D3842950189D005B16C2 /* LemonSqueezy */,
 				2128D37529501885005B16C2 /* Lemon Squeezy */,
 				2128D37429501885005B16C2 /* Products */,
+				2128D385295018A8005B16C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,7 +68,10 @@
 		2128D37529501885005B16C2 /* Lemon Squeezy */ = {
 			isa = PBXGroup;
 			children = (
+				2128D39129502FB0005B16C2 /* Helper Views */,
+				2128D38E29502F56005B16C2 /* Users */,
 				2128D37629501885005B16C2 /* Lemon_SqueezyApp.swift */,
+				2128D38C2950298A005B16C2 /* Secrets.swift */,
 				2128D37829501885005B16C2 /* ContentView.swift */,
 				2128D37A29501886005B16C2 /* Assets.xcassets */,
 				2128D37C29501886005B16C2 /* Preview Content */,
@@ -67,6 +87,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2128D385295018A8005B16C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2128D38E29502F56005B16C2 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				2128D38F29502F60005B16C2 /* Users.swift */,
+				2128D39729503067005B16C2 /* GetMe.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		2128D39129502FB0005B16C2 /* Helper Views */ = {
+			isa = PBXGroup;
+			children = (
+				2128D39229502FC1005B16C2 /* MethodRow.swift */,
+				2128D39529503002005B16C2 /* HTTPMethodBadge.swift */,
+			);
+			path = "Helper Views";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +119,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2128D38129501886005B16C2 /* Build configuration list for PBXNativeTarget "Lemon Squeezy" */;
 			buildPhases = (
+				2128D38B2950266B005B16C2 /* ShellScript */,
 				2128D36F29501885005B16C2 /* Sources */,
 				2128D37029501885005B16C2 /* Frameworks */,
 				2128D37129501885005B16C2 /* Resources */,
@@ -83,6 +129,9 @@
 			dependencies = (
 			);
 			name = "Lemon Squeezy";
+			packageProductDependencies = (
+				2128D386295018A8005B16C2 /* LemonSqueezy */,
+			);
 			productName = "Lemon Squeezy";
 			productReference = 2128D37329501885005B16C2 /* Lemon Squeezy.app */;
 			productType = "com.apple.product-type.application";
@@ -132,12 +181,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2128D38B2950266B005B16C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $SRCROOT;\n\nif [ ! -f \".env\" ];\nthen\n  echo \"error: No .env file was found for environment variables. Check the README for setup instructions for this demo app.\";\n  exit 1;\nfi\n\nset -o allexport; source .env; set +o allexport;\n\ncontent=\"import Foundation\n/// This file is automatically populated by a pre-action build script in the Lemon Squeezy scheme\n/// **Do not** check in the \\`.env\\` file or this generated \\`Secrets.swift\\` file to version control.\n\nlet LS_API_KEY=\\\"$LS_API_KEY\\\"\n\";\n\necho \"$content\" > \"Lemon Squeezy\"/Secrets.swift;\nexit 0;\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2128D36F29501885005B16C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2128D39629503002005B16C2 /* HTTPMethodBadge.swift in Sources */,
+				2128D39029502F60005B16C2 /* Users.swift in Sources */,
+				2128D39829503067005B16C2 /* GetMe.swift in Sources */,
 				2128D37929501885005B16C2 /* ContentView.swift in Sources */,
+				2128D38D2950298A005B16C2 /* Secrets.swift in Sources */,
+				2128D39329502FC1005B16C2 /* MethodRow.swift in Sources */,
 				2128D37729501885005B16C2 /* Lemon_SqueezyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +414,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2128D386295018A8005B16C2 /* LemonSqueezy */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LemonSqueezy;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2128D36B29501885005B16C2 /* Project object */;
 }

@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            Form {
+                Section { } footer: {
+                  Text("This simple SwiftUI app showcases the various capabilities of the Lemon Squeezy library. Navigate into each category to explore the library methods.")
+                }
+
+                Section("Examples") {
+                    NavigationLink(destination: Users()) { Label("Users", systemImage: "person") }
+                }
+            }
+            .navigationTitle("Lemon Squeezy Example App")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .padding()
     }
 }
 
