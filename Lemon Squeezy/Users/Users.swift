@@ -17,6 +17,7 @@ struct Users: View {
                 NavigationLink(destination: GetMe()) { MethodRow(label: "`getMe()`", method: .GET) }
             }
         }
+        .navigationTitle("Users")
     }
 }
 

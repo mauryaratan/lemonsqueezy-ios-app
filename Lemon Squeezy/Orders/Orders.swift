@@ -15,6 +15,7 @@ struct Orders: View {
                 NavigationLink(destination: GetOrder()) { MethodRow(label: "`getOrder(_ orderId)`", method: .GET) }
             }
         }
+        .navigationTitle("Orders")
     }
 }
 
