@@ -32,6 +32,9 @@
 		2133BFB3296E025F00AD073F /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFB2296E025F00AD073F /* Files.swift */; };
 		2133BFB5296E026700AD073F /* GetFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFB4296E026700AD073F /* GetFile.swift */; };
 		2133BFB7296E026E00AD073F /* GetFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFB6296E026E00AD073F /* GetFiles.swift */; };
+		2133BFBA296E072900AD073F /* OrderItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFB9296E072900AD073F /* OrderItems.swift */; };
+		2133BFBC296E073400AD073F /* GetOrderItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFBB296E073400AD073F /* GetOrderItems.swift */; };
+		2133BFBE296E073900AD073F /* GetOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFBD296E073900AD073F /* GetOrderItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		2133BFB2296E025F00AD073F /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
 		2133BFB4296E026700AD073F /* GetFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFile.swift; sourceTree = "<group>"; };
 		2133BFB6296E026E00AD073F /* GetFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFiles.swift; sourceTree = "<group>"; };
+		2133BFB9296E072900AD073F /* OrderItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItems.swift; sourceTree = "<group>"; };
+		2133BFBB296E073400AD073F /* GetOrderItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOrderItems.swift; sourceTree = "<group>"; };
+		2133BFBD296E073900AD073F /* GetOrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOrderItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 				2133BFAA296DFC5E00AD073F /* Variant */,
 				2133BFB1296E024B00AD073F /* File */,
 				2128D39B29504AA4005B16C2 /* Orders */,
+				2133BFB8296E071B00AD073F /* OrderItem */,
 				2128D39129502FB0005B16C2 /* Helper Views */,
 				2128D37629501885005B16C2 /* Lemon_SqueezyApp.swift */,
 				2128D38C2950298A005B16C2 /* Secrets.swift */,
@@ -195,6 +202,16 @@
 				2133BFB6296E026E00AD073F /* GetFiles.swift */,
 			);
 			path = File;
+			sourceTree = "<group>";
+		};
+		2133BFB8296E071B00AD073F /* OrderItem */ = {
+			isa = PBXGroup;
+			children = (
+				2133BFB9296E072900AD073F /* OrderItems.swift */,
+				2133BFBB296E073400AD073F /* GetOrderItems.swift */,
+				2133BFBD296E073900AD073F /* GetOrderItem.swift */,
+			);
+			path = OrderItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,9 +313,12 @@
 				2128D39629503002005B16C2 /* HTTPMethodBadge.swift in Sources */,
 				2133BFAE296DFCDC00AD073F /* GetVariant.swift in Sources */,
 				2133BFA7296DF4B700AD073F /* GetProduct.swift in Sources */,
+				2133BFBC296E073400AD073F /* GetOrderItems.swift in Sources */,
 				2128D3A129504DC4005B16C2 /* GetOrder.swift in Sources */,
 				2128D39029502F60005B16C2 /* Users.swift in Sources */,
+				2133BFBA296E072900AD073F /* OrderItems.swift in Sources */,
 				2133BFAC296DFC9500AD073F /* Variants.swift in Sources */,
+				2133BFBE296E073900AD073F /* GetOrderItem.swift in Sources */,
 				2133BFA5296DF3F200AD073F /* Products.swift in Sources */,
 				2133BFB7296E026E00AD073F /* GetFiles.swift in Sources */,
 				2133BFB0296DFCED00AD073F /* GetVariants.swift in Sources */,
