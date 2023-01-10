@@ -26,6 +26,9 @@
 		2133BFA5296DF3F200AD073F /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFA4296DF3F200AD073F /* Products.swift */; };
 		2133BFA7296DF4B700AD073F /* GetProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFA6296DF4B700AD073F /* GetProduct.swift */; };
 		2133BFA9296DF63000AD073F /* GetProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFA8296DF63000AD073F /* GetProducts.swift */; };
+		2133BFAC296DFC9500AD073F /* Variants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFAB296DFC9500AD073F /* Variants.swift */; };
+		2133BFAE296DFCDC00AD073F /* GetVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFAD296DFCDC00AD073F /* GetVariant.swift */; };
+		2133BFB0296DFCED00AD073F /* GetVariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133BFAF296DFCED00AD073F /* GetVariants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		2133BFA4296DF3F200AD073F /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		2133BFA6296DF4B700AD073F /* GetProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProduct.swift; sourceTree = "<group>"; };
 		2133BFA8296DF63000AD073F /* GetProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProducts.swift; sourceTree = "<group>"; };
+		2133BFAB296DFC9500AD073F /* Variants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variants.swift; sourceTree = "<group>"; };
+		2133BFAD296DFCDC00AD073F /* GetVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVariant.swift; sourceTree = "<group>"; };
+		2133BFAF296DFCED00AD073F /* GetVariants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVariants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +92,12 @@
 		2128D37529501885005B16C2 /* Lemon Squeezy */ = {
 			isa = PBXGroup;
 			children = (
-				2133BFA3296DF3E300AD073F /* Product */,
+				2128D38E29502F56005B16C2 /* Users */,
 				2128D3A229506A66005B16C2 /* Store */,
+				2133BFA3296DF3E300AD073F /* Product */,
+				2133BFAA296DFC5E00AD073F /* Variant */,
 				2128D39B29504AA4005B16C2 /* Orders */,
 				2128D39129502FB0005B16C2 /* Helper Views */,
-				2128D38E29502F56005B16C2 /* Users */,
 				2128D37629501885005B16C2 /* Lemon_SqueezyApp.swift */,
 				2128D38C2950298A005B16C2 /* Secrets.swift */,
 				2128D37829501885005B16C2 /* ContentView.swift */,
@@ -161,6 +168,16 @@
 				2133BFA8296DF63000AD073F /* GetProducts.swift */,
 			);
 			path = Product;
+			sourceTree = "<group>";
+		};
+		2133BFAA296DFC5E00AD073F /* Variant */ = {
+			isa = PBXGroup;
+			children = (
+				2133BFAB296DFC9500AD073F /* Variants.swift */,
+				2133BFAD296DFCDC00AD073F /* GetVariant.swift */,
+				2133BFAF296DFCED00AD073F /* GetVariants.swift */,
+			);
+			path = Variant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,10 +277,13 @@
 			files = (
 				2133BFA9296DF63000AD073F /* GetProducts.swift in Sources */,
 				2128D39629503002005B16C2 /* HTTPMethodBadge.swift in Sources */,
+				2133BFAE296DFCDC00AD073F /* GetVariant.swift in Sources */,
 				2133BFA7296DF4B700AD073F /* GetProduct.swift in Sources */,
 				2128D3A129504DC4005B16C2 /* GetOrder.swift in Sources */,
 				2128D39029502F60005B16C2 /* Users.swift in Sources */,
+				2133BFAC296DFC9500AD073F /* Variants.swift in Sources */,
 				2133BFA5296DF3F200AD073F /* Products.swift in Sources */,
+				2133BFB0296DFCED00AD073F /* GetVariants.swift in Sources */,
 				2128D39829503067005B16C2 /* GetMe.swift in Sources */,
 				2128D39F29504B13005B16C2 /* GetOrders.swift in Sources */,
 				2133BFA2296DE7F800AD073F /* GetStores.swift in Sources */,
