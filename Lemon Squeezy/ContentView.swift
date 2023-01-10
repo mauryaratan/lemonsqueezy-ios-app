@@ -19,6 +19,7 @@ struct ContentView: View {
                     NavigationLink(destination: Users()) { Label("Users", systemImage: "person") }
                     NavigationLink(destination: Orders()) { Label("Orders", systemImage: "cart") }
                     NavigationLink(destination: Stores()) { Label("Store", systemImage: "building.2") }
+                    NavigationLink(destination: Products()) { Label("Product", systemImage: "archivebox") }
                 }
             }
             .navigationTitle("Lemon Squeezy Example App")
