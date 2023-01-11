@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum HTTPMethod: String, CaseIterable {
-  case GET, POST, DELETE
+  case GET, POST, DELETE, PATCH
 }
 
 struct HTTPMethodBadge: View {
@@ -22,6 +22,8 @@ struct HTTPMethodBadge: View {
       return .purple
     case .DELETE:
       return .red
+    case .PATCH:
+        return .orange
     }
   }
   
