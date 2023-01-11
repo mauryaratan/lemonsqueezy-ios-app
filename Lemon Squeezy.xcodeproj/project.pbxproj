@@ -40,6 +40,9 @@
 		2146B0DA296E8A84004FC237 /* GetSubscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2146B0D9296E8A84004FC237 /* GetSubscriptions.swift */; };
 		2146B0DC296E908A004FC237 /* UpdateSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2146B0DB296E908A004FC237 /* UpdateSubscription.swift */; };
 		2146B0DE296EA27F004FC237 /* CancelSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2146B0DD296EA27F004FC237 /* CancelSubscription.swift */; };
+		2146B0E1296EAC7F004FC237 /* Discounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2146B0E0296EAC7F004FC237 /* Discounts.swift */; };
+		2146B0E3296EAC84004FC237 /* GetDiscount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2146B0E2296EAC84004FC237 /* GetDiscount.swift */; };
+		2146B0E5296EAC89004FC237 /* GetDiscounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2146B0E4296EAC89004FC237 /* GetDiscounts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +81,9 @@
 		2146B0D9296E8A84004FC237 /* GetSubscriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSubscriptions.swift; sourceTree = "<group>"; };
 		2146B0DB296E908A004FC237 /* UpdateSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSubscription.swift; sourceTree = "<group>"; };
 		2146B0DD296EA27F004FC237 /* CancelSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelSubscription.swift; sourceTree = "<group>"; };
+		2146B0E0296EAC7F004FC237 /* Discounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discounts.swift; sourceTree = "<group>"; };
+		2146B0E2296EAC84004FC237 /* GetDiscount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDiscount.swift; sourceTree = "<group>"; };
+		2146B0E4296EAC89004FC237 /* GetDiscounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDiscounts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,7 @@
 				2128D39B29504AA4005B16C2 /* Orders */,
 				2133BFB8296E071B00AD073F /* OrderItem */,
 				2146B0CE296E8A41004FC237 /* Subscription */,
+				2146B0DF296EAC73004FC237 /* Discount */,
 				2128D39129502FB0005B16C2 /* Helper Views */,
 				2128D37629501885005B16C2 /* Lemon_SqueezyApp.swift */,
 				2128D38C2950298A005B16C2 /* Secrets.swift */,
@@ -237,6 +244,16 @@
 			path = Subscription;
 			sourceTree = "<group>";
 		};
+		2146B0DF296EAC73004FC237 /* Discount */ = {
+			isa = PBXGroup;
+			children = (
+				2146B0E0296EAC7F004FC237 /* Discounts.swift */,
+				2146B0E2296EAC84004FC237 /* GetDiscount.swift */,
+				2146B0E4296EAC89004FC237 /* GetDiscounts.swift */,
+			);
+			path = Discount;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -341,6 +358,7 @@
 				2133BFBC296E073400AD073F /* GetOrderItems.swift in Sources */,
 				2128D3A129504DC4005B16C2 /* GetOrder.swift in Sources */,
 				2146B0DC296E908A004FC237 /* UpdateSubscription.swift in Sources */,
+				2146B0E5296EAC89004FC237 /* GetDiscounts.swift in Sources */,
 				2128D39029502F60005B16C2 /* Users.swift in Sources */,
 				2133BFBA296E072900AD073F /* OrderItems.swift in Sources */,
 				2133BFAC296DFC9500AD073F /* Variants.swift in Sources */,
@@ -350,8 +368,10 @@
 				2133BFB0296DFCED00AD073F /* GetVariants.swift in Sources */,
 				2128D39829503067005B16C2 /* GetMe.swift in Sources */,
 				2133BFB5296E026700AD073F /* GetFile.swift in Sources */,
+				2146B0E1296EAC7F004FC237 /* Discounts.swift in Sources */,
 				2128D39F29504B13005B16C2 /* GetOrders.swift in Sources */,
 				2133BFA2296DE7F800AD073F /* GetStores.swift in Sources */,
+				2146B0E3296EAC84004FC237 /* GetDiscount.swift in Sources */,
 				2128D37929501885005B16C2 /* ContentView.swift in Sources */,
 				2128D3A629506ACA005B16C2 /* GetStore.swift in Sources */,
 				2128D38D2950298A005B16C2 /* Secrets.swift in Sources */,
