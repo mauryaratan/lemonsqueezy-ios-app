@@ -46,6 +46,9 @@
 		214D7A62296EB1A9007B72D2 /* LicenseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A61296EB1A9007B72D2 /* LicenseKeys.swift */; };
 		214D7A64296EB1B0007B72D2 /* GetLicenseKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A63296EB1B0007B72D2 /* GetLicenseKey.swift */; };
 		214D7A66296EB1B6007B72D2 /* GetLicenseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A65296EB1B6007B72D2 /* GetLicenseKeys.swift */; };
+		214D7A69296EB6CD007B72D2 /* LicenseKeyInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A68296EB6CD007B72D2 /* LicenseKeyInstances.swift */; };
+		214D7A6B296EB6D4007B72D2 /* GetLicenseKeyInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A6A296EB6D4007B72D2 /* GetLicenseKeyInstance.swift */; };
+		214D7A6D296EB6D9007B72D2 /* GetLicenseKeyInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A6C296EB6D9007B72D2 /* GetLicenseKeyInstances.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +93,9 @@
 		214D7A61296EB1A9007B72D2 /* LicenseKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseKeys.swift; sourceTree = "<group>"; };
 		214D7A63296EB1B0007B72D2 /* GetLicenseKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLicenseKey.swift; sourceTree = "<group>"; };
 		214D7A65296EB1B6007B72D2 /* GetLicenseKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLicenseKeys.swift; sourceTree = "<group>"; };
+		214D7A68296EB6CD007B72D2 /* LicenseKeyInstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseKeyInstances.swift; sourceTree = "<group>"; };
+		214D7A6A296EB6D4007B72D2 /* GetLicenseKeyInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLicenseKeyInstance.swift; sourceTree = "<group>"; };
+		214D7A6C296EB6D9007B72D2 /* GetLicenseKeyInstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLicenseKeyInstances.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,7 @@
 				2146B0CE296E8A41004FC237 /* Subscription */,
 				2146B0DF296EAC73004FC237 /* Discount */,
 				214D7A60296EB196007B72D2 /* LicenseKey */,
+				214D7A67296EB6BD007B72D2 /* LicenseKeyInstance */,
 				2128D39129502FB0005B16C2 /* Helper Views */,
 				2128D37629501885005B16C2 /* Lemon_SqueezyApp.swift */,
 				2128D38C2950298A005B16C2 /* Secrets.swift */,
@@ -271,6 +278,16 @@
 			path = LicenseKey;
 			sourceTree = "<group>";
 		};
+		214D7A67296EB6BD007B72D2 /* LicenseKeyInstance */ = {
+			isa = PBXGroup;
+			children = (
+				214D7A68296EB6CD007B72D2 /* LicenseKeyInstances.swift */,
+				214D7A6A296EB6D4007B72D2 /* GetLicenseKeyInstance.swift */,
+				214D7A6C296EB6D9007B72D2 /* GetLicenseKeyInstances.swift */,
+			);
+			path = LicenseKeyInstance;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -373,6 +390,7 @@
 				2133BFA7296DF4B700AD073F /* GetProduct.swift in Sources */,
 				2146B0D8296E8A7F004FC237 /* GetSubscription.swift in Sources */,
 				2133BFBC296E073400AD073F /* GetOrderItems.swift in Sources */,
+				214D7A6D296EB6D9007B72D2 /* GetLicenseKeyInstances.swift in Sources */,
 				2128D3A129504DC4005B16C2 /* GetOrder.swift in Sources */,
 				2146B0DC296E908A004FC237 /* UpdateSubscription.swift in Sources */,
 				2146B0E5296EAC89004FC237 /* GetDiscounts.swift in Sources */,
@@ -389,6 +407,7 @@
 				2128D39F29504B13005B16C2 /* GetOrders.swift in Sources */,
 				2133BFA2296DE7F800AD073F /* GetStores.swift in Sources */,
 				2146B0E3296EAC84004FC237 /* GetDiscount.swift in Sources */,
+				214D7A69296EB6CD007B72D2 /* LicenseKeyInstances.swift in Sources */,
 				214D7A62296EB1A9007B72D2 /* LicenseKeys.swift in Sources */,
 				2128D37929501885005B16C2 /* ContentView.swift in Sources */,
 				214D7A64296EB1B0007B72D2 /* GetLicenseKey.swift in Sources */,
@@ -400,6 +419,7 @@
 				2146B0DE296EA27F004FC237 /* CancelSubscription.swift in Sources */,
 				2146B0DA296E8A84004FC237 /* GetSubscriptions.swift in Sources */,
 				2128D39D29504AAF005B16C2 /* Orders.swift in Sources */,
+				214D7A6B296EB6D4007B72D2 /* GetLicenseKeyInstance.swift in Sources */,
 				214D7A66296EB1B6007B72D2 /* GetLicenseKeys.swift in Sources */,
 				2128D37729501885005B16C2 /* Lemon_SqueezyApp.swift in Sources */,
 			);

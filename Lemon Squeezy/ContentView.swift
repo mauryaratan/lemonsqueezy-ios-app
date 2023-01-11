@@ -16,16 +16,21 @@ struct ContentView: View {
                 }
 
                 Section("Examples") {
-                    NavigationLink(destination: Users()) { Label("Users", systemImage: "person") }
-                    NavigationLink(destination: Orders()) { Label("Orders", systemImage: "cart") }
-                    NavigationLink(destination: Stores()) { Label("Store", systemImage: "building.2") }
-                    NavigationLink(destination: Products()) { Label("Products", systemImage: "archivebox") }
-                    NavigationLink(destination: Variants()) { Label("Variants", systemImage: "shippingbox") }
-                    NavigationLink(destination: Files()) { Label("Files", systemImage: "doc.text.image.fill") }
-                    NavigationLink(destination: OrderItems()) { Label("Order Items", systemImage: "cart.badge.plus") }
-                    NavigationLink(destination: Subscriptions()) { Label("Subscriptions", systemImage: "chart.bar.xaxis") }
-                    NavigationLink(destination: Discounts()) { Label("Discounts", systemImage: "ticket") }
-                    NavigationLink(destination: LicenseKeys()) { Label("License Keys", systemImage: "key") }
+                    Group {
+                        NavigationLink(destination: Users()) { Label("Users", systemImage: "person") }
+                        NavigationLink(destination: Orders()) { Label("Orders", systemImage: "cart") }
+                        NavigationLink(destination: Stores()) { Label("Store", systemImage: "building.2") }
+                        NavigationLink(destination: Products()) { Label("Products", systemImage: "archivebox") }
+                        NavigationLink(destination: Variants()) { Label("Variants", systemImage: "shippingbox") }
+                        NavigationLink(destination: Files()) { Label("Files", systemImage: "doc.text.image.fill") }
+                        NavigationLink(destination: OrderItems()) { Label("Order Items", systemImage: "cart.badge.plus") }
+                        NavigationLink(destination: Subscriptions()) { Label("Subscriptions", systemImage: "chart.bar.xaxis") }
+                        NavigationLink(destination: Discounts()) { Label("Discounts", systemImage: "ticket") }
+                        NavigationLink(destination: LicenseKeys()) { Label("License Keys", systemImage: "key") }
+                    }
+                    Group {
+                        NavigationLink(destination: LicenseKeyInstances()) { Label("License Keys Instances", systemImage: "key.radiowaves.forward") }
+                    }
                 }
             }
             .navigationTitle("Lemon Squeezy Example App")
