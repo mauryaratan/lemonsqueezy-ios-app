@@ -49,6 +49,10 @@
 		214D7A69296EB6CD007B72D2 /* LicenseKeyInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A68296EB6CD007B72D2 /* LicenseKeyInstances.swift */; };
 		214D7A6B296EB6D4007B72D2 /* GetLicenseKeyInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A6A296EB6D4007B72D2 /* GetLicenseKeyInstance.swift */; };
 		214D7A6D296EB6D9007B72D2 /* GetLicenseKeyInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A6C296EB6D9007B72D2 /* GetLicenseKeyInstances.swift */; };
+		214D7A70296EBD7F007B72D2 /* Checkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A6F296EBD7F007B72D2 /* Checkouts.swift */; };
+		214D7A72296EBD86007B72D2 /* GetCheckout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A71296EBD86007B72D2 /* GetCheckout.swift */; };
+		214D7A74296EBD8A007B72D2 /* GetCheckouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A73296EBD8A007B72D2 /* GetCheckouts.swift */; };
+		214D7A76296EBD92007B72D2 /* CreateCheckout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A75296EBD92007B72D2 /* CreateCheckout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +100,10 @@
 		214D7A68296EB6CD007B72D2 /* LicenseKeyInstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseKeyInstances.swift; sourceTree = "<group>"; };
 		214D7A6A296EB6D4007B72D2 /* GetLicenseKeyInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLicenseKeyInstance.swift; sourceTree = "<group>"; };
 		214D7A6C296EB6D9007B72D2 /* GetLicenseKeyInstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLicenseKeyInstances.swift; sourceTree = "<group>"; };
+		214D7A6F296EBD7F007B72D2 /* Checkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkouts.swift; sourceTree = "<group>"; };
+		214D7A71296EBD86007B72D2 /* GetCheckout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCheckout.swift; sourceTree = "<group>"; };
+		214D7A73296EBD8A007B72D2 /* GetCheckouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCheckouts.swift; sourceTree = "<group>"; };
+		214D7A75296EBD92007B72D2 /* CreateCheckout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCheckout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +151,7 @@
 				2146B0DF296EAC73004FC237 /* Discount */,
 				214D7A60296EB196007B72D2 /* LicenseKey */,
 				214D7A67296EB6BD007B72D2 /* LicenseKeyInstance */,
+				214D7A6E296EBD6A007B72D2 /* Checkout */,
 				2128D39129502FB0005B16C2 /* Helper Views */,
 				2128D37629501885005B16C2 /* Lemon_SqueezyApp.swift */,
 				2128D38C2950298A005B16C2 /* Secrets.swift */,
@@ -288,6 +297,17 @@
 			path = LicenseKeyInstance;
 			sourceTree = "<group>";
 		};
+		214D7A6E296EBD6A007B72D2 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				214D7A6F296EBD7F007B72D2 /* Checkouts.swift */,
+				214D7A71296EBD86007B72D2 /* GetCheckout.swift */,
+				214D7A73296EBD8A007B72D2 /* GetCheckouts.swift */,
+				214D7A75296EBD92007B72D2 /* CreateCheckout.swift */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -384,21 +404,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				2133BFA9296DF63000AD073F /* GetProducts.swift in Sources */,
+				214D7A72296EBD86007B72D2 /* GetCheckout.swift in Sources */,
 				2128D39629503002005B16C2 /* HTTPMethodBadge.swift in Sources */,
 				2146B0D6296E8A7A004FC237 /* Subscriptions.swift in Sources */,
 				2133BFAE296DFCDC00AD073F /* GetVariant.swift in Sources */,
 				2133BFA7296DF4B700AD073F /* GetProduct.swift in Sources */,
 				2146B0D8296E8A7F004FC237 /* GetSubscription.swift in Sources */,
 				2133BFBC296E073400AD073F /* GetOrderItems.swift in Sources */,
+				214D7A74296EBD8A007B72D2 /* GetCheckouts.swift in Sources */,
 				214D7A6D296EB6D9007B72D2 /* GetLicenseKeyInstances.swift in Sources */,
 				2128D3A129504DC4005B16C2 /* GetOrder.swift in Sources */,
 				2146B0DC296E908A004FC237 /* UpdateSubscription.swift in Sources */,
 				2146B0E5296EAC89004FC237 /* GetDiscounts.swift in Sources */,
+				214D7A70296EBD7F007B72D2 /* Checkouts.swift in Sources */,
 				2128D39029502F60005B16C2 /* Users.swift in Sources */,
 				2133BFBA296E072900AD073F /* OrderItems.swift in Sources */,
 				2133BFAC296DFC9500AD073F /* Variants.swift in Sources */,
 				2133BFBE296E073900AD073F /* GetOrderItem.swift in Sources */,
 				2133BFA5296DF3F200AD073F /* Products.swift in Sources */,
+				214D7A76296EBD92007B72D2 /* CreateCheckout.swift in Sources */,
 				2133BFB7296E026E00AD073F /* GetFiles.swift in Sources */,
 				2133BFB0296DFCED00AD073F /* GetVariants.swift in Sources */,
 				2128D39829503067005B16C2 /* GetMe.swift in Sources */,
