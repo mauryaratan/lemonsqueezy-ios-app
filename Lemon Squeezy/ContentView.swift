@@ -25,6 +25,7 @@ struct ContentView: View {
                     NavigationLink(destination: OrderItems()) { Label("Order Items", systemImage: "cart.badge.plus") }
                     NavigationLink(destination: Subscriptions()) { Label("Subscriptions", systemImage: "chart.bar.xaxis") }
                     NavigationLink(destination: Discounts()) { Label("Discounts", systemImage: "ticket") }
+                    NavigationLink(destination: LicenseKeys()) { Label("License Keys", systemImage: "key") }
                 }
             }
             .navigationTitle("Lemon Squeezy Example App")
