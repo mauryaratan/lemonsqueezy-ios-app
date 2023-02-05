@@ -30,6 +30,7 @@ struct ContentView: View {
                     }
                     Group {
                         NavigationLink(destination: LicenseKeyInstances()) { Label("License Keys Instances", systemImage: "key.radiowaves.forward") }
+                        NavigationLink(destination: License()) { Label("Licensing API", systemImage: "key.fill") }
                         NavigationLink(destination: Checkouts()) { Label("Checkouts", systemImage: "cart.fill.badge.plus") }
                     }
                 }

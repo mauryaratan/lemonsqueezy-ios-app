@@ -53,6 +53,10 @@
 		214D7A72296EBD86007B72D2 /* GetCheckout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A71296EBD86007B72D2 /* GetCheckout.swift */; };
 		214D7A74296EBD8A007B72D2 /* GetCheckouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A73296EBD8A007B72D2 /* GetCheckouts.swift */; };
 		214D7A76296EBD92007B72D2 /* CreateCheckout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7A75296EBD92007B72D2 /* CreateCheckout.swift */; };
+		21B2D96F298FB8E7005CC8FB /* License.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2D96E298FB8E7005CC8FB /* License.swift */; };
+		21B2D971298FB91C005CC8FB /* ActivateLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2D970298FB91C005CC8FB /* ActivateLicenseView.swift */; };
+		21B46739298FDE9B001973CF /* ValidateLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B46738298FDE9B001973CF /* ValidateLicenseView.swift */; };
+		21B4673B298FDFCA001973CF /* DeactivateLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4673A298FDFCA001973CF /* DeactivateLicenseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +108,10 @@
 		214D7A71296EBD86007B72D2 /* GetCheckout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCheckout.swift; sourceTree = "<group>"; };
 		214D7A73296EBD8A007B72D2 /* GetCheckouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCheckouts.swift; sourceTree = "<group>"; };
 		214D7A75296EBD92007B72D2 /* CreateCheckout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCheckout.swift; sourceTree = "<group>"; };
+		21B2D96E298FB8E7005CC8FB /* License.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = License.swift; sourceTree = "<group>"; };
+		21B2D970298FB91C005CC8FB /* ActivateLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivateLicenseView.swift; sourceTree = "<group>"; };
+		21B46738298FDE9B001973CF /* ValidateLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateLicenseView.swift; sourceTree = "<group>"; };
+		21B4673A298FDFCA001973CF /* DeactivateLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeactivateLicenseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +157,7 @@
 				2133BFB8296E071B00AD073F /* OrderItem */,
 				2146B0CE296E8A41004FC237 /* Subscription */,
 				2146B0DF296EAC73004FC237 /* Discount */,
+				21B2D96D298FB8C9005CC8FB /* License */,
 				214D7A60296EB196007B72D2 /* LicenseKey */,
 				214D7A67296EB6BD007B72D2 /* LicenseKeyInstance */,
 				214D7A6E296EBD6A007B72D2 /* Checkout */,
@@ -308,6 +317,17 @@
 			path = Checkout;
 			sourceTree = "<group>";
 		};
+		21B2D96D298FB8C9005CC8FB /* License */ = {
+			isa = PBXGroup;
+			children = (
+				21B2D96E298FB8E7005CC8FB /* License.swift */,
+				21B2D970298FB91C005CC8FB /* ActivateLicenseView.swift */,
+				21B46738298FDE9B001973CF /* ValidateLicenseView.swift */,
+				21B4673A298FDFCA001973CF /* DeactivateLicenseView.swift */,
+			);
+			path = License;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -414,9 +434,11 @@
 				214D7A74296EBD8A007B72D2 /* GetCheckouts.swift in Sources */,
 				214D7A6D296EB6D9007B72D2 /* GetLicenseKeyInstances.swift in Sources */,
 				2128D3A129504DC4005B16C2 /* GetOrder.swift in Sources */,
+				21B2D971298FB91C005CC8FB /* ActivateLicenseView.swift in Sources */,
 				2146B0DC296E908A004FC237 /* UpdateSubscription.swift in Sources */,
 				2146B0E5296EAC89004FC237 /* GetDiscounts.swift in Sources */,
 				214D7A70296EBD7F007B72D2 /* Checkouts.swift in Sources */,
+				21B46739298FDE9B001973CF /* ValidateLicenseView.swift in Sources */,
 				2128D39029502F60005B16C2 /* Users.swift in Sources */,
 				2133BFBA296E072900AD073F /* OrderItems.swift in Sources */,
 				2133BFAC296DFC9500AD073F /* Variants.swift in Sources */,
@@ -434,11 +456,13 @@
 				214D7A69296EB6CD007B72D2 /* LicenseKeyInstances.swift in Sources */,
 				214D7A62296EB1A9007B72D2 /* LicenseKeys.swift in Sources */,
 				2128D37929501885005B16C2 /* ContentView.swift in Sources */,
+				21B2D96F298FB8E7005CC8FB /* License.swift in Sources */,
 				214D7A64296EB1B0007B72D2 /* GetLicenseKey.swift in Sources */,
 				2128D3A629506ACA005B16C2 /* GetStore.swift in Sources */,
 				2128D38D2950298A005B16C2 /* Secrets.swift in Sources */,
 				2128D3A429506A79005B16C2 /* Stores.swift in Sources */,
 				2128D39329502FC1005B16C2 /* MethodRow.swift in Sources */,
+				21B4673B298FDFCA001973CF /* DeactivateLicenseView.swift in Sources */,
 				2133BFB3296E025F00AD073F /* Files.swift in Sources */,
 				2146B0DE296EA27F004FC237 /* CancelSubscription.swift in Sources */,
 				2146B0DA296E8A84004FC237 /* GetSubscriptions.swift in Sources */,
