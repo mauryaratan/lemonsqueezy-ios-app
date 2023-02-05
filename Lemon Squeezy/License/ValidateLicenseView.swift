@@ -12,21 +12,19 @@ struct ValidateLicenseView: View {
     @EnvironmentObject var lemon: LemonSqueezy
     @State var errors: [LemonSqueezyAPIError] = []
     @SceneStorage("licenseKey") var licenseKey = ""
-    @SceneStorage("instanceName") var instanceName = ""
+    @SceneStorage("instanceId") var instanceId = ""
     @State var license: ValidateLicense?
     
     var body: some View {
         Form {
             Section {
                 TextField("License Key", text: $licenseKey)
-                TextField("Instance Name", text: $instanceName)
+                TextField("Instance Name", text: $instanceId)
                 
                 Button {
                     Task {
                         do {
-                            let result = try await lemon.validateLicense(queryItems: [
-                                URLQueryItem(name: "license_key", value: licenseKey),
-                            ])
+                            let result = try await lemon.validateLicense(licenseKey: licenseKey, instanceId: instanceId)
                             
                             license = result.self
                         } catch {

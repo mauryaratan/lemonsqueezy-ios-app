@@ -24,10 +24,7 @@ struct DeactivateLicenseView: View {
                 Button {
                     Task {
                         do {
-                            let result = try await lemon.deactivateLicense(queryItems: [
-                                URLQueryItem(name: "license_key", value: licenseKey),
-                                URLQueryItem(name: "instance_id", value: instanceId),
-                            ])
+                            let result = try await lemon.deactivateLicense(licenseKey: licenseKey, instanceId: instanceId)
                             
                             license = result.self
                         } catch {

@@ -24,11 +24,7 @@ struct ActivateLicenseView: View {
                 Button {
                     Task {
                         do {
-                            let result = try await lemon.activateLicense(queryItems: [
-                                URLQueryItem(name: "license_key", value: licenseKey),
-                                URLQueryItem(name: "instance_name", value: instanceName),
-                            ])
-                            
+                            let result = try await lemon.activateLicense(licenseKey: licenseKey, instanceName: instanceName)
                             license = result.self
                         } catch {
                             if let error = error as? LemonSqueezyAPIError {
