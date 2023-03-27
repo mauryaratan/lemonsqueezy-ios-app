@@ -46,7 +46,8 @@ struct GetLicenseKey: View {
             
             if let licenseKey {
                 Section("License Key") {
-                    LabeledContent("License Key", value: licenseKey.attributes.keyShort)
+                    LabeledContent("License Key", value: licenseKey.attributes.key)
+                    LabeledContent("License Key - Short", value: licenseKey.attributes.keyShort)
                     LabeledContent("Status", value: licenseKey.attributes.statusFormatted)
                     LabeledContent("User name", value: licenseKey.attributes.userName)
                     LabeledContent("User email", value: licenseKey.attributes.userEmail)
