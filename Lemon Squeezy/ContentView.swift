@@ -18,6 +18,7 @@ struct ContentView: View {
                 Section("Examples") {
                     Group {
                         NavigationLink(destination: Users()) { Label("Users", systemImage: "person") }
+                        NavigationLink(destination: Customers()) { Label("Customers", systemImage: "person.2") }
                         NavigationLink(destination: Orders()) { Label("Orders", systemImage: "cart") }
                         NavigationLink(destination: Stores()) { Label("Store", systemImage: "building.2") }
                         NavigationLink(destination: Products()) { Label("Products", systemImage: "archivebox") }
@@ -26,9 +27,9 @@ struct ContentView: View {
                         NavigationLink(destination: OrderItems()) { Label("Order Items", systemImage: "cart.badge.plus") }
                         NavigationLink(destination: Subscriptions()) { Label("Subscriptions", systemImage: "chart.bar.xaxis") }
                         NavigationLink(destination: Discounts()) { Label("Discounts", systemImage: "ticket") }
-                        NavigationLink(destination: DiscountRedemptions()) { Label("Discount Redemptions", systemImage: "ticket.fill") }
                     }
                     Group {
+                        NavigationLink(destination: DiscountRedemptions()) { Label("Discount Redemptions", systemImage: "ticket.fill") }
                         NavigationLink(destination: LicenseKeys()) { Label("License Keys", systemImage: "key") }
                         NavigationLink(destination: LicenseKeyInstances()) { Label("License Keys Instances", systemImage: "key.radiowaves.forward") }
                         NavigationLink(destination: License()) { Label("Licensing API", systemImage: "key.fill") }
