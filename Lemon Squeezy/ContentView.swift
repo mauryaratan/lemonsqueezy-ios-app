@@ -26,9 +26,10 @@ struct ContentView: View {
                         NavigationLink(destination: OrderItems()) { Label("Order Items", systemImage: "cart.badge.plus") }
                         NavigationLink(destination: Subscriptions()) { Label("Subscriptions", systemImage: "chart.bar.xaxis") }
                         NavigationLink(destination: Discounts()) { Label("Discounts", systemImage: "ticket") }
-                        NavigationLink(destination: LicenseKeys()) { Label("License Keys", systemImage: "key") }
+                        NavigationLink(destination: DiscountRedemptions()) { Label("Discount Redemptions", systemImage: "ticket.fill") }
                     }
                     Group {
+                        NavigationLink(destination: LicenseKeys()) { Label("License Keys", systemImage: "key") }
                         NavigationLink(destination: LicenseKeyInstances()) { Label("License Keys Instances", systemImage: "key.radiowaves.forward") }
                         NavigationLink(destination: License()) { Label("Licensing API", systemImage: "key.fill") }
                         NavigationLink(destination: Checkouts()) { Label("Checkouts", systemImage: "cart.fill.badge.plus") }

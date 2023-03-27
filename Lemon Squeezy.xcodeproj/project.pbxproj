@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211C2C5F29D21A0A00195C57 /* DiscountRedemptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C2C5E29D21A0A00195C57 /* DiscountRedemptions.swift */; };
+		211C2C6129D21AAC00195C57 /* GetDiscountRedemption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C2C6029D21AAC00195C57 /* GetDiscountRedemption.swift */; };
+		211C2C6329D21C3B00195C57 /* GetDiscountRedemptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C2C6229D21C3B00195C57 /* GetDiscountRedemptions.swift */; };
 		2128D37729501885005B16C2 /* Lemon_SqueezyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D37629501885005B16C2 /* Lemon_SqueezyApp.swift */; };
 		2128D37929501885005B16C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128D37829501885005B16C2 /* ContentView.swift */; };
 		2128D37B29501886005B16C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2128D37A29501886005B16C2 /* Assets.xcassets */; };
@@ -60,6 +63,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211C2C5E29D21A0A00195C57 /* DiscountRedemptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountRedemptions.swift; sourceTree = "<group>"; };
+		211C2C6029D21AAC00195C57 /* GetDiscountRedemption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDiscountRedemption.swift; sourceTree = "<group>"; };
+		211C2C6229D21C3B00195C57 /* GetDiscountRedemptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDiscountRedemptions.swift; sourceTree = "<group>"; };
 		2128D37329501885005B16C2 /* Lemon Squeezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemon Squeezy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2128D37629501885005B16C2 /* Lemon_SqueezyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemon_SqueezyApp.swift; sourceTree = "<group>"; };
 		2128D37829501885005B16C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +132,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211C2C5D29D219F000195C57 /* DiscountRedemption */ = {
+			isa = PBXGroup;
+			children = (
+				211C2C5E29D21A0A00195C57 /* DiscountRedemptions.swift */,
+				211C2C6029D21AAC00195C57 /* GetDiscountRedemption.swift */,
+				211C2C6229D21C3B00195C57 /* GetDiscountRedemptions.swift */,
+			);
+			path = DiscountRedemption;
+			sourceTree = "<group>";
+		};
 		2128D36A29501885005B16C2 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +173,7 @@
 				2133BFB8296E071B00AD073F /* OrderItem */,
 				2146B0CE296E8A41004FC237 /* Subscription */,
 				2146B0DF296EAC73004FC237 /* Discount */,
+				211C2C5D29D219F000195C57 /* DiscountRedemption */,
 				21B2D96D298FB8C9005CC8FB /* License */,
 				214D7A60296EB196007B72D2 /* LicenseKey */,
 				214D7A67296EB6BD007B72D2 /* LicenseKeyInstance */,
@@ -430,6 +447,8 @@
 				2133BFAE296DFCDC00AD073F /* GetVariant.swift in Sources */,
 				2133BFA7296DF4B700AD073F /* GetProduct.swift in Sources */,
 				2146B0D8296E8A7F004FC237 /* GetSubscription.swift in Sources */,
+				211C2C5F29D21A0A00195C57 /* DiscountRedemptions.swift in Sources */,
+				211C2C6329D21C3B00195C57 /* GetDiscountRedemptions.swift in Sources */,
 				2133BFBC296E073400AD073F /* GetOrderItems.swift in Sources */,
 				214D7A74296EBD8A007B72D2 /* GetCheckouts.swift in Sources */,
 				214D7A6D296EB6D9007B72D2 /* GetLicenseKeyInstances.swift in Sources */,
@@ -460,6 +479,7 @@
 				214D7A64296EB1B0007B72D2 /* GetLicenseKey.swift in Sources */,
 				2128D3A629506ACA005B16C2 /* GetStore.swift in Sources */,
 				2128D38D2950298A005B16C2 /* Secrets.swift in Sources */,
+				211C2C6129D21AAC00195C57 /* GetDiscountRedemption.swift in Sources */,
 				2128D3A429506A79005B16C2 /* Stores.swift in Sources */,
 				2128D39329502FC1005B16C2 /* MethodRow.swift in Sources */,
 				21B4673B298FDFCA001973CF /* DeactivateLicenseView.swift in Sources */,
