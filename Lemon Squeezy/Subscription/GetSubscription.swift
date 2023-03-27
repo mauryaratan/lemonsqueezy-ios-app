@@ -49,6 +49,8 @@ struct GetSubscription: View {
                     LabeledContent("Product Name", value: subscription.attributes.productName)
                     LabeledContent("Variant Name", value: subscription.attributes.variantName)
                     LabeledContent("Status", value: subscription.attributes.statusFormatted)
+                    LabeledContent("Card Brand", value: subscription.attributes.cardBrand)
+                    LabeledContent("Card Last Four", value: subscription.attributes.cardLastFour)
                     Link("Update Payment Method", destination: URL(string: subscription.attributes.urls.updatePaymentMethod)!)
                 }
             }
