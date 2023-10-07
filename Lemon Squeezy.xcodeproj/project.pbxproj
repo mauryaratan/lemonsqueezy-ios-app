@@ -63,6 +63,23 @@
 		21B2D971298FB91C005CC8FB /* ActivateLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2D970298FB91C005CC8FB /* ActivateLicenseView.swift */; };
 		21B46739298FDE9B001973CF /* ValidateLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B46738298FDE9B001973CF /* ValidateLicenseView.swift */; };
 		21B4673B298FDFCA001973CF /* DeactivateLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4673A298FDFCA001973CF /* DeactivateLicenseView.swift */; };
+		21DB13EC2AD16BC800B89E95 /* SubscriptionInvoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB13EB2AD16BC800B89E95 /* SubscriptionInvoices.swift */; };
+		21DB13EE2AD16C4600B89E95 /* GetSubscriptionInvoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB13ED2AD16C4600B89E95 /* GetSubscriptionInvoice.swift */; };
+		21DB13F22AD1924300B89E95 /* GetSubscriptionInvoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB13F12AD1924300B89E95 /* GetSubscriptionInvoices.swift */; };
+		21DB13F52AD1939500B89E95 /* SubscriptionItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB13F42AD1939500B89E95 /* SubscriptionItems.swift */; };
+		21DB13F72AD193CE00B89E95 /* GetSubscriptionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB13F62AD193CE00B89E95 /* GetSubscriptionItem.swift */; };
+		21DB13F92AD193D500B89E95 /* GetSubscriptionItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB13F82AD193D500B89E95 /* GetSubscriptionItems.swift */; };
+		21DB13FB2AD19CD600B89E95 /* UpdateSubscriptionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB13FA2AD19CD600B89E95 /* UpdateSubscriptionItem.swift */; };
+		21DB13FD2AD1A66800B89E95 /* GetSubscriptionItemCurrentUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB13FC2AD1A66800B89E95 /* GetSubscriptionItemCurrentUsage.swift */; };
+		21DB14002AD1C7B500B89E95 /* Prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB13FF2AD1C7B500B89E95 /* Prices.swift */; };
+		21DB14022AD1C83C00B89E95 /* GetPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB14012AD1C83C00B89E95 /* GetPrice.swift */; };
+		21DB14042AD1C84B00B89E95 /* GetPrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB14032AD1C84B00B89E95 /* GetPrices.swift */; };
+		21DB14072AD1D60600B89E95 /* UsageRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB14062AD1D60600B89E95 /* UsageRecords.swift */; };
+		21DB14092AD1D63100B89E95 /* GetUsageRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB14082AD1D63100B89E95 /* GetUsageRecord.swift */; };
+		21DB140B2AD1D63700B89E95 /* GetUsageRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB140A2AD1D63700B89E95 /* GetUsageRecords.swift */; };
+		21DB140E2AD1DE9A00B89E95 /* Webhooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB140D2AD1DE9A00B89E95 /* Webhooks.swift */; };
+		21DB14102AD1DEA200B89E95 /* GetWebhook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB140F2AD1DEA200B89E95 /* GetWebhook.swift */; };
+		21DB14122AD1DEA900B89E95 /* GetWebhooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB14112AD1DEA900B89E95 /* GetWebhooks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +141,23 @@
 		21B2D970298FB91C005CC8FB /* ActivateLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivateLicenseView.swift; sourceTree = "<group>"; };
 		21B46738298FDE9B001973CF /* ValidateLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateLicenseView.swift; sourceTree = "<group>"; };
 		21B4673A298FDFCA001973CF /* DeactivateLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeactivateLicenseView.swift; sourceTree = "<group>"; };
+		21DB13EB2AD16BC800B89E95 /* SubscriptionInvoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionInvoices.swift; sourceTree = "<group>"; };
+		21DB13ED2AD16C4600B89E95 /* GetSubscriptionInvoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSubscriptionInvoice.swift; sourceTree = "<group>"; };
+		21DB13F12AD1924300B89E95 /* GetSubscriptionInvoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSubscriptionInvoices.swift; sourceTree = "<group>"; };
+		21DB13F42AD1939500B89E95 /* SubscriptionItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionItems.swift; sourceTree = "<group>"; };
+		21DB13F62AD193CE00B89E95 /* GetSubscriptionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSubscriptionItem.swift; sourceTree = "<group>"; };
+		21DB13F82AD193D500B89E95 /* GetSubscriptionItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSubscriptionItems.swift; sourceTree = "<group>"; };
+		21DB13FA2AD19CD600B89E95 /* UpdateSubscriptionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSubscriptionItem.swift; sourceTree = "<group>"; };
+		21DB13FC2AD1A66800B89E95 /* GetSubscriptionItemCurrentUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSubscriptionItemCurrentUsage.swift; sourceTree = "<group>"; };
+		21DB13FF2AD1C7B500B89E95 /* Prices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prices.swift; sourceTree = "<group>"; };
+		21DB14012AD1C83C00B89E95 /* GetPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPrice.swift; sourceTree = "<group>"; };
+		21DB14032AD1C84B00B89E95 /* GetPrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPrices.swift; sourceTree = "<group>"; };
+		21DB14062AD1D60600B89E95 /* UsageRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageRecords.swift; sourceTree = "<group>"; };
+		21DB14082AD1D63100B89E95 /* GetUsageRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUsageRecord.swift; sourceTree = "<group>"; };
+		21DB140A2AD1D63700B89E95 /* GetUsageRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUsageRecords.swift; sourceTree = "<group>"; };
+		21DB140D2AD1DE9A00B89E95 /* Webhooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webhooks.swift; sourceTree = "<group>"; };
+		21DB140F2AD1DEA200B89E95 /* GetWebhook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWebhook.swift; sourceTree = "<group>"; };
+		21DB14112AD1DEA900B89E95 /* GetWebhooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWebhooks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +214,9 @@
 		2128D37529501885005B16C2 /* Lemon Squeezy */ = {
 			isa = PBXGroup;
 			children = (
+				21DB140C2AD1DE9300B89E95 /* Webhook */,
+				21DB14052AD1D5FB00B89E95 /* UsageRecord */,
+				21DB13FE2AD1C7AA00B89E95 /* Price */,
 				2128D38E29502F56005B16C2 /* Users */,
 				211C2C6429D223B700195C57 /* Customers */,
 				2128D3A229506A66005B16C2 /* Store */,
@@ -189,6 +226,8 @@
 				2128D39B29504AA4005B16C2 /* Orders */,
 				2133BFB8296E071B00AD073F /* OrderItem */,
 				2146B0CE296E8A41004FC237 /* Subscription */,
+				21DB13EA2AD16BA100B89E95 /* SubscriptionInvoice */,
+				21DB13F32AD1937C00B89E95 /* SubscriptionItem */,
 				2146B0DF296EAC73004FC237 /* Discount */,
 				211C2C5D29D219F000195C57 /* DiscountRedemption */,
 				21B2D96D298FB8C9005CC8FB /* License */,
@@ -362,6 +401,58 @@
 			path = License;
 			sourceTree = "<group>";
 		};
+		21DB13EA2AD16BA100B89E95 /* SubscriptionInvoice */ = {
+			isa = PBXGroup;
+			children = (
+				21DB13EB2AD16BC800B89E95 /* SubscriptionInvoices.swift */,
+				21DB13ED2AD16C4600B89E95 /* GetSubscriptionInvoice.swift */,
+				21DB13F12AD1924300B89E95 /* GetSubscriptionInvoices.swift */,
+			);
+			path = SubscriptionInvoice;
+			sourceTree = "<group>";
+		};
+		21DB13F32AD1937C00B89E95 /* SubscriptionItem */ = {
+			isa = PBXGroup;
+			children = (
+				21DB13F42AD1939500B89E95 /* SubscriptionItems.swift */,
+				21DB13F62AD193CE00B89E95 /* GetSubscriptionItem.swift */,
+				21DB13F82AD193D500B89E95 /* GetSubscriptionItems.swift */,
+				21DB13FA2AD19CD600B89E95 /* UpdateSubscriptionItem.swift */,
+				21DB13FC2AD1A66800B89E95 /* GetSubscriptionItemCurrentUsage.swift */,
+			);
+			path = SubscriptionItem;
+			sourceTree = "<group>";
+		};
+		21DB13FE2AD1C7AA00B89E95 /* Price */ = {
+			isa = PBXGroup;
+			children = (
+				21DB13FF2AD1C7B500B89E95 /* Prices.swift */,
+				21DB14012AD1C83C00B89E95 /* GetPrice.swift */,
+				21DB14032AD1C84B00B89E95 /* GetPrices.swift */,
+			);
+			path = Price;
+			sourceTree = "<group>";
+		};
+		21DB14052AD1D5FB00B89E95 /* UsageRecord */ = {
+			isa = PBXGroup;
+			children = (
+				21DB14062AD1D60600B89E95 /* UsageRecords.swift */,
+				21DB14082AD1D63100B89E95 /* GetUsageRecord.swift */,
+				21DB140A2AD1D63700B89E95 /* GetUsageRecords.swift */,
+			);
+			path = UsageRecord;
+			sourceTree = "<group>";
+		};
+		21DB140C2AD1DE9300B89E95 /* Webhook */ = {
+			isa = PBXGroup;
+			children = (
+				21DB140D2AD1DE9A00B89E95 /* Webhooks.swift */,
+				21DB140F2AD1DEA200B89E95 /* GetWebhook.swift */,
+				21DB14112AD1DEA900B89E95 /* GetWebhooks.swift */,
+			);
+			path = Webhook;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -461,25 +552,31 @@
 				214D7A72296EBD86007B72D2 /* GetCheckout.swift in Sources */,
 				2128D39629503002005B16C2 /* HTTPMethodBadge.swift in Sources */,
 				2146B0D6296E8A7A004FC237 /* Subscriptions.swift in Sources */,
+				21DB14122AD1DEA900B89E95 /* GetWebhooks.swift in Sources */,
 				2133BFAE296DFCDC00AD073F /* GetVariant.swift in Sources */,
 				2133BFA7296DF4B700AD073F /* GetProduct.swift in Sources */,
 				2146B0D8296E8A7F004FC237 /* GetSubscription.swift in Sources */,
 				211C2C5F29D21A0A00195C57 /* DiscountRedemptions.swift in Sources */,
 				211C2C6A29D224DC00195C57 /* GetCustomers.swift in Sources */,
+				21DB140B2AD1D63700B89E95 /* GetUsageRecords.swift in Sources */,
 				211C2C6329D21C3B00195C57 /* GetDiscountRedemptions.swift in Sources */,
 				2133BFBC296E073400AD073F /* GetOrderItems.swift in Sources */,
 				214D7A74296EBD8A007B72D2 /* GetCheckouts.swift in Sources */,
 				214D7A6D296EB6D9007B72D2 /* GetLicenseKeyInstances.swift in Sources */,
+				21DB14092AD1D63100B89E95 /* GetUsageRecord.swift in Sources */,
 				2128D3A129504DC4005B16C2 /* GetOrder.swift in Sources */,
 				21B2D971298FB91C005CC8FB /* ActivateLicenseView.swift in Sources */,
 				2146B0DC296E908A004FC237 /* UpdateSubscription.swift in Sources */,
 				2146B0E5296EAC89004FC237 /* GetDiscounts.swift in Sources */,
 				214D7A70296EBD7F007B72D2 /* Checkouts.swift in Sources */,
 				21B46739298FDE9B001973CF /* ValidateLicenseView.swift in Sources */,
+				21DB14002AD1C7B500B89E95 /* Prices.swift in Sources */,
 				2128D39029502F60005B16C2 /* Users.swift in Sources */,
 				2133BFBA296E072900AD073F /* OrderItems.swift in Sources */,
 				2133BFAC296DFC9500AD073F /* Variants.swift in Sources */,
+				21DB13FB2AD19CD600B89E95 /* UpdateSubscriptionItem.swift in Sources */,
 				2133BFBE296E073900AD073F /* GetOrderItem.swift in Sources */,
+				21DB14102AD1DEA200B89E95 /* GetWebhook.swift in Sources */,
 				2133BFA5296DF3F200AD073F /* Products.swift in Sources */,
 				214D7A76296EBD92007B72D2 /* CreateCheckout.swift in Sources */,
 				2133BFB7296E026E00AD073F /* GetFiles.swift in Sources */,
@@ -487,8 +584,10 @@
 				2128D39829503067005B16C2 /* GetMe.swift in Sources */,
 				2133BFB5296E026700AD073F /* GetFile.swift in Sources */,
 				2146B0E1296EAC7F004FC237 /* Discounts.swift in Sources */,
+				21DB13FD2AD1A66800B89E95 /* GetSubscriptionItemCurrentUsage.swift in Sources */,
 				2128D39F29504B13005B16C2 /* GetOrders.swift in Sources */,
 				2133BFA2296DE7F800AD073F /* GetStores.swift in Sources */,
+				21DB14072AD1D60600B89E95 /* UsageRecords.swift in Sources */,
 				2146B0E3296EAC84004FC237 /* GetDiscount.swift in Sources */,
 				214D7A69296EB6CD007B72D2 /* LicenseKeyInstances.swift in Sources */,
 				214D7A62296EB1A9007B72D2 /* LicenseKeys.swift in Sources */,
@@ -498,16 +597,25 @@
 				214D7A64296EB1B0007B72D2 /* GetLicenseKey.swift in Sources */,
 				2128D3A629506ACA005B16C2 /* GetStore.swift in Sources */,
 				2128D38D2950298A005B16C2 /* Secrets.swift in Sources */,
+				21DB13EE2AD16C4600B89E95 /* GetSubscriptionInvoice.swift in Sources */,
 				211C2C6129D21AAC00195C57 /* GetDiscountRedemption.swift in Sources */,
 				2128D3A429506A79005B16C2 /* Stores.swift in Sources */,
 				2128D39329502FC1005B16C2 /* MethodRow.swift in Sources */,
+				21DB14042AD1C84B00B89E95 /* GetPrices.swift in Sources */,
+				21DB14022AD1C83C00B89E95 /* GetPrice.swift in Sources */,
 				21B4673B298FDFCA001973CF /* DeactivateLicenseView.swift in Sources */,
 				2133BFB3296E025F00AD073F /* Files.swift in Sources */,
 				2146B0DE296EA27F004FC237 /* CancelSubscription.swift in Sources */,
 				2146B0DA296E8A84004FC237 /* GetSubscriptions.swift in Sources */,
+				21DB13EC2AD16BC800B89E95 /* SubscriptionInvoices.swift in Sources */,
 				211C2C6629D223CA00195C57 /* Customers.swift in Sources */,
 				2128D39D29504AAF005B16C2 /* Orders.swift in Sources */,
 				214D7A6B296EB6D4007B72D2 /* GetLicenseKeyInstance.swift in Sources */,
+				21DB13F22AD1924300B89E95 /* GetSubscriptionInvoices.swift in Sources */,
+				21DB13F72AD193CE00B89E95 /* GetSubscriptionItem.swift in Sources */,
+				21DB140E2AD1DE9A00B89E95 /* Webhooks.swift in Sources */,
+				21DB13F92AD193D500B89E95 /* GetSubscriptionItems.swift in Sources */,
+				21DB13F52AD1939500B89E95 /* SubscriptionItems.swift in Sources */,
 				214D7A66296EB1B6007B72D2 /* GetLicenseKeys.swift in Sources */,
 				2128D37729501885005B16C2 /* Lemon_SqueezyApp.swift in Sources */,
 			);

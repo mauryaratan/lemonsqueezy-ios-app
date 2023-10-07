@@ -1,16 +1,16 @@
 //
-//  GetOrders.swift
+//  GetUsageRecords.swift
 //  Lemon Squeezy
 //
-//  Created by Ram Ratan Maurya on 19/12/22.
+//  Created by Ram Ratan Maurya on 07/10/23.
 //
 
 import SwiftUI
 import LemonSqueezy
 
-struct GetOrders: View {
+struct GetUsageRecords: View {
     @EnvironmentObject var lemon: LemonSqueezy
-    @State var orders: [Order]?
+    @State var usageRecords: [UsageRecord]?
     @State var errors: [LemonSqueezyAPIError] = []
     
     var body: some View {
@@ -19,9 +19,9 @@ struct GetOrders: View {
                 Button {
                     Task {
                         do {
-                            let result = try await lemon.getOrders()
+                            let result = try await lemon.getUsageRecords()
                             withAnimation {
-                                orders = result.data
+                                usageRecords = result.data
                                 errors = result.errors ?? []
                             }
                             print(result)
@@ -34,22 +34,18 @@ struct GetOrders: View {
                         }
                     }
                 } label: {
-                    Text("Get orders")
+                    Text("Get usage records")
                 }
             }
             
-            if let orders {
+            if let usageRecords {
                 Section {
-                    ForEach(orders) { order in
+                    ForEach(usageRecords) { usageRecord in
                         NavigationLink {
-                            GetOrder(order: order, orderId: order.id)
+                            GetUsageRecord(usageRecord: usageRecord)
                         } label: {
                             VStack(alignment: .leading) {
-                                HStack {
-                                    Text(order.attributes.userName ?? "")
-                                    Spacer()
-                                    Text(order.attributes.totalFormatted)
-                                }
+                                Text(usageRecord.attributes.action)
                             }
                         }
 
@@ -57,12 +53,10 @@ struct GetOrders: View {
                 }
             }
         }
-        .navigationTitle("Get Orders")
+        .navigationTitle("Get usage records")
     }
 }
 
-struct GetOrders_Previews: PreviewProvider {
-    static var previews: some View {
-        GetOrders()
-    }
+#Preview {
+    GetUsageRecords()
 }

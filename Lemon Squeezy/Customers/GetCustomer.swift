@@ -51,6 +51,7 @@ struct GetCustomer: View {
                     LabeledContent("Status", value: customer.attributes.statusFormatted)
                     LabeledContent("Total Revenue", value: customer.attributes.totalRevenueCurrencyFormatted)
                     LabeledContent("MRR", value: customer.attributes.mrrFormatted)
+                    LabeledContent("Customer Portal", value: customer.attributes.urls.customerPortal)
                 }
             }
         }

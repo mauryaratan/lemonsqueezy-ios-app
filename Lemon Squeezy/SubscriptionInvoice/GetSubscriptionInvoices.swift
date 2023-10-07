@@ -1,16 +1,16 @@
 //
-//  GetOrders.swift
+//  GetSubscriptionInvoices.swift
 //  Lemon Squeezy
 //
-//  Created by Ram Ratan Maurya on 19/12/22.
+//  Created by Ram Ratan Maurya on 07/10/23.
 //
 
 import SwiftUI
 import LemonSqueezy
 
-struct GetOrders: View {
+struct GetSubscriptionInvoices: View {
     @EnvironmentObject var lemon: LemonSqueezy
-    @State var orders: [Order]?
+    @State var subscriptionInvoices: [SubscriptionInvoice]?
     @State var errors: [LemonSqueezyAPIError] = []
     
     var body: some View {
@@ -19,9 +19,9 @@ struct GetOrders: View {
                 Button {
                     Task {
                         do {
-                            let result = try await lemon.getOrders()
+                            let result = try await lemon.getSubscriptionInvoices()
                             withAnimation {
-                                orders = result.data
+                                subscriptionInvoices = result.data
                                 errors = result.errors ?? []
                             }
                             print(result)
@@ -34,21 +34,20 @@ struct GetOrders: View {
                         }
                     }
                 } label: {
-                    Text("Get orders")
+                    Text("Get subscription invoices")
                 }
             }
             
-            if let orders {
+            if let subscriptionInvoices {
                 Section {
-                    ForEach(orders) { order in
+                    ForEach(subscriptionInvoices) { subscriptionInvoice in
                         NavigationLink {
-                            GetOrder(order: order, orderId: order.id)
+                            GetSubscriptionInvoice(subscriptionInvoice: subscriptionInvoice)
                         } label: {
                             VStack(alignment: .leading) {
                                 HStack {
-                                    Text(order.attributes.userName ?? "")
-                                    Spacer()
-                                    Text(order.attributes.totalFormatted)
+                                    Text(subscriptionInvoice.attributes.userName)
+                                    Text(subscriptionInvoice.attributes.userEmail)
                                 }
                             }
                         }
@@ -57,12 +56,10 @@ struct GetOrders: View {
                 }
             }
         }
-        .navigationTitle("Get Orders")
+        .navigationTitle("Get Subscriptions invoices")
     }
 }
 
-struct GetOrders_Previews: PreviewProvider {
-    static var previews: some View {
-        GetOrders()
-    }
+#Preview {
+    GetSubscriptionInvoices()
 }

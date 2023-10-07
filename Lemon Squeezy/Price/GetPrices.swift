@@ -1,16 +1,16 @@
 //
-//  GetOrders.swift
+//  GetPrices.swift
 //  Lemon Squeezy
 //
-//  Created by Ram Ratan Maurya on 19/12/22.
+//  Created by Ram Ratan Maurya on 07/10/23.
 //
 
 import SwiftUI
 import LemonSqueezy
 
-struct GetOrders: View {
+struct GetPrices: View {
     @EnvironmentObject var lemon: LemonSqueezy
-    @State var orders: [Order]?
+    @State var prices: [Price]?
     @State var errors: [LemonSqueezyAPIError] = []
     
     var body: some View {
@@ -19,9 +19,9 @@ struct GetOrders: View {
                 Button {
                     Task {
                         do {
-                            let result = try await lemon.getOrders()
+                            let result = try await lemon.getPrices()
                             withAnimation {
-                                orders = result.data
+                                prices = result.data
                                 errors = result.errors ?? []
                             }
                             print(result)
@@ -34,22 +34,18 @@ struct GetOrders: View {
                         }
                     }
                 } label: {
-                    Text("Get orders")
+                    Text("Get prices")
                 }
             }
             
-            if let orders {
+            if let prices {
                 Section {
-                    ForEach(orders) { order in
+                    ForEach(prices) { price in
                         NavigationLink {
-                            GetOrder(order: order, orderId: order.id)
+                            GetPrice(price: price)
                         } label: {
                             VStack(alignment: .leading) {
-                                HStack {
-                                    Text(order.attributes.userName ?? "")
-                                    Spacer()
-                                    Text(order.attributes.totalFormatted)
-                                }
+                                Text(price.attributes.category)
                             }
                         }
 
@@ -57,12 +53,10 @@ struct GetOrders: View {
                 }
             }
         }
-        .navigationTitle("Get Orders")
+        .navigationTitle("Get prices")
     }
 }
 
-struct GetOrders_Previews: PreviewProvider {
-    static var previews: some View {
-        GetOrders()
-    }
+#Preview {
+    GetPrices()
 }

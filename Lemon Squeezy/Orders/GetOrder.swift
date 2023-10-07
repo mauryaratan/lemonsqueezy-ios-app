@@ -45,11 +45,11 @@ struct GetOrder: View {
             
             if let order {
                 Section("Order") {
-                    LabeledContent("Product Name", value: order.attributes.firstOrderItem.productName)
-                    LabeledContent("Variant Name", value: order.attributes.firstOrderItem.variantName)
+                    LabeledContent("Identifier", value: order.attributes.identifier)
                     LabeledContent("Price", value: String(order.attributes.totalFormatted))
-                    LabeledContent("User Name", value: order.attributes.userName)
-                    LabeledContent("User Email", value: order.attributes.userEmail)
+                    LabeledContent("User Name", value: order.attributes.userName ?? "")
+                    LabeledContent("User Email", value: order.attributes.userEmail ?? "")
+                    LabeledContent("Receipt:", value: order.attributes.urls.receipt)
                 }
             }
         }
